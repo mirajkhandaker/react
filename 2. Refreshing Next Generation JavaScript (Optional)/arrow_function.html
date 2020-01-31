@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const declare = () => {
+        console.log("declare function")
+    };
+    declare();
+
+    const singleArgument = name =>{
+        console.log(name)
+    };
+    singleArgument("singleArgument");
+
+    const multipleArgument = (arg1,arg2) =>{
+        console.log(arg1,arg2)
+    };
+    multipleArgument("one","two");
+
+    const returnFunction = () =>{
+        return "returnFunction";
+    };
+    console.log(returnFunction());
+
+    const returnSingleArgument = () => "returnSingleArgument";
+    console.log(returnSingleArgument());
+
+</script>
+</body>
+</html>
