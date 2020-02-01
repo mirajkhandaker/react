@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    class Human{
+        constructor(){
+            this.gender = "Male"
+        }
+
+        humanGender(){
+            console.log(this.gender)
+        }
+    }
+
+    class Person extends Human{
+        constructor(){
+            super();
+            this.name = "Miraj"
+        }
+         personName(){
+            console.log(this.name)
+         }
+    }
+
+    const person = new Person();
+
+    person.personName();
+    person.humanGender()
+
+</script>
+</body>
+</html>
