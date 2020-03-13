@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.books{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.book{
+  box-sizing: border-box;
+  padding: 20;
+  margin: 20px;
+  background-color: #e5e5e5;
+  border: 1px solid springgreen;
+}
