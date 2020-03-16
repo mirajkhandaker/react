@@ -11,12 +11,6 @@ function BookS(){
             <Book />
             <Book />
             <Book />
-            <Book />
-            <Book />
-            <Book />
-            <Book />
-            <Book />
-            <Book />
         </section>
     );
 }

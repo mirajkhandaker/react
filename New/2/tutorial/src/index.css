@@ -20,8 +20,9 @@ code {
 
 .book{
   box-sizing: border-box;
-  padding: 20;
+  padding: 20px;
   margin: 20px;
   background-color: #e5e5e5;
   border: 1px solid springgreen;
+  text-align: center;
 }
