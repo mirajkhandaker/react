@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340ee042-c4c2-4ffe-809b-1240d346ea8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/hoc/Auxiliary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Cockpit/Cockpit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Persons/Person/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/components/Persons/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +14,7 @@
     <session id="748944474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.118" value="1" />
@@ -33,13 +27,14 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.66" value="2" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="1980">
               <caret line="94" column="23" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -93,11 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="440">
               <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -190,6 +182,7 @@
     <handled-path value="$PROJECT_DIR$/5. Styling React Components &amp; Elements/lists-conditionals--lists-finished/node_modules" />
     <handled-path value="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/node_modules" />
     <handled-path value="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/node_modules" />
+    <handled-path value="$PROJECT_DIR$/New/person-list/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -201,6 +194,7 @@
       <path value="$PROJECT_DIR$/5. Styling React Components &amp; Elements/lists-conditionals--lists-finished/package.json" />
       <path value="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/Batter-Project-Structure/package.json" />
       <path value="$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/package.json" />
+      <path value="$PROJECT_DIR$/New/person-list/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -233,29 +227,6 @@
               <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="7. Diving Deeper into Components &amp; React Internals" type="462c0819:PsiDirectoryNode" />
               <item name="cmp-deep-dive-03-updating-lifecycle-state" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="7. Diving Deeper into Components &amp; React Internals" type="462c0819:PsiDirectoryNode" />
-              <item name="cmp-deep-dive-03-updating-lifecycle-state" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="7. Diving Deeper into Components &amp; React Internals" type="462c0819:PsiDirectoryNode" />
-              <item name="cmp-deep-dive-03-updating-lifecycle-state" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="7. Diving Deeper into Components &amp; React Internals" type="462c0819:PsiDirectoryNode" />
-              <item name="cmp-deep-dive-03-updating-lifecycle-state" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,16 +295,18 @@
       <workItem from="1583368816457" duration="2448000" />
       <workItem from="1583454464471" duration="3945000" />
       <workItem from="1583542099700" duration="5815000" />
+      <workItem from="1584374261549" duration="2000" />
+      <workItem from="1584412950012" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51741000" />
+    <option name="totallyTimeSpent" value="51824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -574,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,20 +587,17 @@
     <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -639,11 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="440">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/7. Diving Deeper into Components &amp; React Internals/cmp-deep-dive-03-updating-lifecycle-state/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
